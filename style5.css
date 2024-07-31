@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 209, 217);
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure the video stays in the background */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire background */
+}
+
+#nav {
+    width: 100%;
+    padding: 35px 45px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2; /* Ensure the navbar stays above the video */
+}
+
+#nav a {
+    background-color: rgb(159, 209, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48%;
+    height: 50%;
+    background-image: url('josh-hild-K4WXehq5Alc-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    z-index: 3; /* Ensure the box stays above the video */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box h5 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 350px;
+    text-align: center;
+    letter-spacing: 45px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(253, 252, 252, 0.8);
+    font-size: 20px;
+    z-index: 4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(92, 209, 217);
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure the video stays in the background */
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire background */
+}
+
+#nav {
+    width: 100%;
+    padding: 35px 45px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2; /* Ensure the navbar stays above the video */
+}
+
+#nav a {
+    background-color: rgb(159, 209, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48%;
+    height: 50%;
+    background-image: url('josh-hild-K4WXehq5Alc-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    z-index: 3; /* Ensure the box stays above the video */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box h5 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 350px;
+    text-align: center;
+    letter-spacing: 45px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(250, 247, 247, 0.8);
+    font-size: 20px;
+    z-index: 4;
+}
+
+.scroll-down span {
+    display: block;
+}
+
+.scroll-down span:nth-child(2) {
+    font-size: 30px; /* Larger size for the arrow */
+    margin-top: 5px;
+}
+
